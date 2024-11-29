@@ -10,13 +10,11 @@
       <div class="container mt-5">
         <div class="about-section bg-light p-4">
           <div class="row align-items-center">
-            <!-- Image Section -->
             <div class="col-md-4 text-center">
               <img src="/images/about1.webp" alt="Profile Image" class="profile-image">
               <img src="/images/about2.webp" alt="Profile Image" class="images2">
             </div>
 
-            <!-- Text Section -->
             <div class="col-md-8">
               <h1 class="main-title">Isabella Reeves</h1>
               <p class="subtitle">My personal story</p>

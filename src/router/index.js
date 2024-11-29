@@ -23,7 +23,6 @@ const routes = [
 
 ];
 
-// Tạo router
     const router = createRouter({
         history: createWebHistory(),
         routes,

@@ -30,7 +30,6 @@
               </div>
             </div>
           </div>
-          <!-- ------cái 2 -->
           <div class="col">
             <div class="card bg-light">
               <img src="/images/blog2.webp" class="card-img-top" alt="Post Image">
