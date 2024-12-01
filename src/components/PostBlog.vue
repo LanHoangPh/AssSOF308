@@ -5,7 +5,7 @@
       <div class="col-lg-8">
         <div class="card bg-light mt-5">
           <div class="card-header">
-            <h3 class="text-center">Create a New Blog Post</h3>
+            <h3 class="text-center">Tạo Bài Post mới và comment</h3>
           </div>
           <div class="card-body">
             <form @submit.prevent="submitPost">
@@ -95,9 +95,9 @@
                 </form>
               </div>
               <div class="card-body">
-                <ul>
-                  <li v-for="(comment, commentIndex) in post.comments" :key="commentIndex">
-                    <strong>{{ comment.user.firstName }} {{ comment.user.lastName }}</strong>: {{ comment.text }}
+                <ul class="navbar-nav">
+                  <li class="nav-item" v-for="(comment, commentIndex) in post.comments" :key="commentIndex">
+                    <strong ><i class="fas fa-user fa-fw"></i>{{ comment.user.firstName }} {{ comment.user.lastName }}</strong>: {{ comment.text }}
                   </li>
                 </ul>
               </div>
@@ -142,13 +142,18 @@ export default {
       });
     },
     submitPost() {
+      const loggedInUser = JSON.parse(sessionStorage.getItem('loggedInUser'));
+      if (!loggedInUser) {
+        alert('Bạn cần đăng nhập hoặc đằng ký để post bai viet!');
+        return;
+      }
       if (!this.postTitle || !this.postDate || !this.postContent) {
-        alert("Please fill in all the fields!");
+        alert("Điền đầy đủ thông tin đi!");
         return;
       }
       const newPost = {
         title: this.postTitle,
-        date: new Date(this.postDate).toISOString(),
+        date: this.formatDate(this.postDate),
         content: this.postContent,
         image: this.postImage || "/images/default.jpg",
         comments: [],
@@ -167,15 +172,26 @@ export default {
       this.postImage = null;
     },
 
+    formatDate(dateString) {
+      const date = new Date(dateString);
+      const day = date.getDate();
+      const month = date.getMonth() + 1;
+      const year = date.getFullYear();
+
+      return `${day}-${month}-${year}`;
+    },
+
     formatTimeAgo(postDate) {
       const now = new Date();
       const postTime = new Date(postDate);
+
       const diff = now - postTime;
 
       const seconds = Math.floor(diff / 1000);
       const minutes = Math.floor(seconds / 60);
       const hours = Math.floor(minutes / 60);
       const days = Math.floor(hours / 24);
+
       if (seconds < 60) {
         return `${seconds} seconds ago`;
       } else if (minutes < 60) {
@@ -234,5 +250,8 @@ export default {
 }
 .card {
   border: none;
+}
+li{
+
 }
 </style>
