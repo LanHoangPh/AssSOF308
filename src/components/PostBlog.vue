@@ -208,7 +208,8 @@ export default {
     submitComment(post, postIndex) {
       const loggedInUser = JSON.parse(sessionStorage.getItem('loggedInUser'));
       if (!loggedInUser) {
-        alert('Bạn cần đăng nhập hoặc đằng ký để comment!');
+        alert('Bạn cần đăng nhập để comment!');
+        this.$router.push('/login');
         return;
       }
       if (post.newComment.trim() === "") {

@@ -43,6 +43,9 @@
                   <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                     <li><router-link to="/register" class="dropdown-item" >Đăng Ký</router-link></li>
                     <li><router-link to="/login" class="dropdown-item" >Đăng Nhập</router-link></li>
+                    <hr>
+                    <li><router-link to="/userprofile" class="dropdown-item" >Setting</router-link></li>
+                    <li><router-link to="/login" class="dropdown-item" >LogOut</router-link></li>
                   </ul>
                 </li>
               </ul>

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\SOF308\\Assignment_SOF308\\AssSOF308\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SOF308\\Assignment_SOF308\\AssSOF308\\src\\components\\DangKy.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\DangKy.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SOF308\\Assignment_SOF308\\AssSOF308\\src\\Views\\Index.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Views\\Index.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -39,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\DangNhap.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SOF308\\Assignment_SOF308\\AssSOF308\\src\\components\\DangKy.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\DangKy.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SOF308\\Assignment_SOF308\\AssSOF308\\src\\assets\\vue.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\assets\\vue.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 616,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -77,8 +77,12 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.vue",
               "DocumentMoniker": "D:\\SOF308\\Assignment_SOF308\\AssSOF308\\src\\Views\\Index.vue",
               "RelativeDocumentMoniker": "src\\Views\\Index.vue",
@@ -91,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Home.vue",
               "DocumentMoniker": "D:\\SOF308\\Assignment_SOF308\\AssSOF308\\src\\Views\\Home.vue",
               "RelativeDocumentMoniker": "src\\Views\\Home.vue",
@@ -103,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Contact.vue",
               "DocumentMoniker": "D:\\SOF308\\Assignment_SOF308\\AssSOF308\\src\\Views\\Contact.vue",
               "RelativeDocumentMoniker": "src\\Views\\Contact.vue",
@@ -115,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Blog.vue",
               "DocumentMoniker": "D:\\SOF308\\Assignment_SOF308\\AssSOF308\\src\\Views\\Blog.vue",
               "RelativeDocumentMoniker": "src\\Views\\Blog.vue",
@@ -127,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "About.vue",
               "DocumentMoniker": "D:\\SOF308\\Assignment_SOF308\\AssSOF308\\src\\Views\\About.vue",
               "RelativeDocumentMoniker": "src\\Views\\About.vue",
@@ -139,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "index.js",
               "DocumentMoniker": "D:\\SOF308\\Assignment_SOF308\\AssSOF308\\src\\router\\index.js",
               "RelativeDocumentMoniker": "src\\router\\index.js",
@@ -151,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PostBlog.vue",
               "DocumentMoniker": "D:\\SOF308\\Assignment_SOF308\\AssSOF308\\src\\components\\PostBlog.vue",
               "RelativeDocumentMoniker": "src\\components\\PostBlog.vue",
@@ -163,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "HelloWorld.vue",
               "DocumentMoniker": "D:\\SOF308\\Assignment_SOF308\\AssSOF308\\src\\components\\HelloWorld.vue",
               "RelativeDocumentMoniker": "src\\components\\HelloWorld.vue",
@@ -175,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DangNhap.vue",
               "DocumentMoniker": "D:\\SOF308\\Assignment_SOF308\\AssSOF308\\src\\components\\DangNhap.vue",
               "RelativeDocumentMoniker": "src\\components\\DangNhap.vue",
@@ -187,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "DangKy.vue",
               "DocumentMoniker": "D:\\SOF308\\Assignment_SOF308\\AssSOF308\\src\\components\\DangKy.vue",
               "RelativeDocumentMoniker": "src\\components\\DangKy.vue",
@@ -195,7 +199,8 @@
               "RelativeToolTip": "src\\components\\DangKy.vue",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-11-29T17:28:32.417Z"
+              "WhenOpened": "2024-11-29T17:28:32.417Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '@/Views/Index.vue';
 import Blog from '@/Views/Blog.vue';
 import Podcast from '@/Views/Podcast.vue';
 import About from '@/Views/About.vue';
@@ -9,6 +8,7 @@ import Index from "@/Views/Index.vue";
 import DangKy from "@/components/DangKy.vue";
 import DangNhap from "@/components/DangNhap.vue";
 import PostBlog from "@/components/PostBlog.vue";
+import UserProfile from "@/components/UserProfile.vue";
 
 const routes = [
     { path: '/', component: Index },
@@ -20,6 +20,7 @@ const routes = [
     { path: '/register', component: DangKy },
     { path: '/login', component: DangNhap },
     { path: '/blogpost', component: PostBlog },
+    { path: '/userprofile', component: UserProfile }
 
 ];
 
